@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="457.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TaskEditController">
+   <children>
+      <Label layoutX="54.0" layoutY="70.0" prefHeight="20.0" prefWidth="44.0" text="Título:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lblTitulo2" layoutX="102.0" layoutY="68.0" prefHeight="25.0" prefWidth="239.0" />
+      <TextField fx:id="lblLocal2" layoutX="101.0" layoutY="107.0" prefHeight="25.0" prefWidth="239.0" />
+      <DatePicker fx:id="datePicka2" layoutX="100.0" layoutY="148.0" prefHeight="25.0" prefWidth="239.0" />
+      <Label layoutX="27.0" layoutY="190.0" text="Descrição:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="descricao2" layoutX="102.0" layoutY="190.0" prefHeight="127.0" prefWidth="239.0" />
+      <Label layoutX="54.0" layoutY="110.0" prefHeight="20.0" prefWidth="44.0" text="Local:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="151.0" prefHeight="20.0" prefWidth="44.0" text="Data:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAdd2" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleButtonEdit" text="Atualizar" />
+      <Button fx:id="btnCancel2" layoutX="101.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleButtonCancel" text="Cancelar" />
+   </children>
+</AnchorPane>
