@@ -8,7 +8,10 @@ Foco de estudo:
 - GET na classe permite acessar o valor como se fosse uma propriedade e nao um metodo. Ex negociacao.volume
 - Constructor  só sera chamado quando houver o operador new
 - ES6 permite instanciar um parametro default caso nao tenha sido passado nenhum valor no constructor
-- Template String: `Essa é uma string interpolada ${data.getDate()}`
+- Template String: 
+```javascript
+`Essa é uma string interpolada ${data.getDate()}`
+``` 
 - Spread Operator:  permite que um objeto iterável, como um array ou string, seja expandida, quando passa para uma funcao, com o spread operator, cada item do array é passado como parametro. Exemplo:
 ```javascript
     anyFunction(itemArray1, itemArray2, itemArray3)
